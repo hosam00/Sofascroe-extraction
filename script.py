@@ -12,3 +12,4 @@ for game in json_data['events']:
     home_score = game['homeScore']['current']
     away_score = game['awayScore']['current']
     print(f'{league} | {home_team} {home_score} - {away_score} {away_team}')
+    print('test')
